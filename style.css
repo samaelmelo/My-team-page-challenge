@@ -20,6 +20,7 @@ body {
 }
 
 header {
+  
   width:100%;
   display: flex;
   flex-direction: column;
@@ -138,8 +139,12 @@ footer a:hover{
     flex-direction: row;
     justify-content:space-between;
 
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    max-width: 100%;
+    width:1000px;
+    margin: 0 auto;
   }
 
   header h1{
@@ -197,7 +202,7 @@ footer a:hover{
   }
 
   main section figure p {
-    transform: translateX(60%) translateY(-1600%) rotate(90deg);
+    transform: translateX(60%) translateY(-1500%) rotate(90deg);
   
     font: normal 1.2rem var(--font-pt);
   }
